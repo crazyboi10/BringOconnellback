@@ -1,0 +1,37 @@
+.trivia {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.trivia h2 {
+    color: #333;
+}
+
+#question {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#answer {
+    color: #2e7d32;
+    font-weight: bold;
+}
+
+.trivia button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.trivia button:hover {
+    background-color: #388E3C;
+}
