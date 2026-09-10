@@ -5,7 +5,7 @@ const trivia = [
         answer: "240 Million"
     },
     {
-        question: "The Moody Blues began their career in 1964 in Birmingham, England. Their first hit song, 'Go Now', featured what lead singer who would later become a member of Paul McCartney and Wings?",
+        question: "saw ?",
         choices: ["One", "Two", "Three", "Four"],
         answer: "Three"
     },
@@ -56,7 +56,7 @@ function confirmAnswer() {
     const selected = document.querySelector('input[name="answer"]:checked');
 
     if (!selected) {
-        document.getElementById("result").textContent = "Please select an answer!";
+        document.getElementById("result").textContent = "you didn't choose an opiton >:(";
         return;
     }
 

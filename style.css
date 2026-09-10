@@ -1,6 +1,14 @@
 body {
     margin: 10;
-    background-color: dark green;
-h1 {
-    color: rgb(197, 111, 19);             
-}}
+    background-color: rgb(10, 124, 10);
+}
+h1{
+    
+}
+p {
+    color: rgb(239, 17, 17);             
+}
+a {
+    text-decoration: bold;
+    color: rgb(31, 48, 234)
+}
