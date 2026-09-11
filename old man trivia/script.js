@@ -52,6 +52,8 @@ function getTrivia() {
     document.getElementById("result").textContent = "";
 }
 
+
+
 function confirmAnswer() {
     const selected = document.querySelector('input[name="answer"]:checked');
 
@@ -61,9 +63,9 @@ function confirmAnswer() {
     }
 
     if (selected.value === currentTrivia.answer) {
-        document.getElementById("result").textContent = "Correct! 🎉";
+        document.getElementById("result").textContent = "Not bad UNC";
     } else {
         document.getElementById("result").textContent =
-            "Incorrect! The correct answer is " + currentTrivia.answer;
+            "DUMBOO! The answer you CLEARLY DIDN'T KNOW was " + currentTrivia.answer;
     }
 }

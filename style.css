@@ -1,14 +1,14 @@
 body {
     margin: 10;
-    background-color: rgb(10, 124, 10);
+    background-color: rgb(0, 0, 0);
 }
 h1{
-    
+    color: rgba(17, 45, 18);
 }
 p {
-    color: rgb(239, 17, 17);             
+    color: rgb(204, 149, 60);             
 }
 a {
     text-decoration: bold;
-    color: rgb(31, 48, 234)
+    color: rgb(82, 93, 209)
 }
