@@ -69,3 +69,5 @@ function confirmAnswer() {
             "DUMBOO! The answer you CLEARLY DIDN'T KNOW was " + currentTrivia.answer;
     }
 }
+
+getTrivia();
