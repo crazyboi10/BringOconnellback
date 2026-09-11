@@ -5,9 +5,9 @@ const trivia = [
         answer: "240 Million"
     },
     {
-        question: "saw ?",
-        choices: ["One", "Two", "Three", "Four"],
-        answer: "Three"
+        question: "The original lead singer of AC/DC was Bon ______ ?",
+        choices: ["One", "Two", "Three", "Scout"],
+        answer: "Scott"
     },
     {
         question: "When was AC/DC formed?",
